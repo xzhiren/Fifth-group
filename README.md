@@ -7,6 +7,7 @@
 - [宋宇航](https://github.com/594SYH)
 - [胡志伟](https://github.com/Johnhu98)
 - [陶祯](https://github.com/hongtaozhenchen)
+6月12日：给自己要做的项目开了个头，准备明天尽力把项目做完。
 - [李政](https://github.com/xzhiren)
 - [程浩](https://github.com/chenghaoxmxm)
 
