@@ -1,7 +1,6 @@
-# Fifth-group
-第五组
+# 第五组
+## Fifth-group
 ##  组员
-- [夏志仁](https://github.com/xzhiren)
 - [刘小燕](https://github.com/xzhiren)
 - [葛金燕](https://github.com/xzhiren)
 - [濮世杰](https://github.com/xzhiren)
