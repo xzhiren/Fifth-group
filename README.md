@@ -3,6 +3,7 @@
 ##  组员
 - [刘小燕](https://github.com/lxy123123)
 - [葛金燕](https://github.com/gjy0712)
+6月12日：还是不知道如何使用flex弹性布局，focus,active,作业速度做的很慢，多练提高速度。js没学，一点也不会使用js,利用空余时间抓紧学习。利用这两天先学会focus和active,然后把侧边导航栏实现了。
 - [濮世杰](https://github.com/shijieTop500)
 - [宋宇航](https://github.com/594SYH)
 - [胡志伟](https://github.com/Johnhu98)
