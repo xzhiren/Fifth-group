@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://wl.jd.com/storagebridge.html -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title></title></head><body><script type="text/javascript">
+    (function() {
+        function messageHandler(event) {
+            try {
+                var origin = event.origin;
+                var domainWhiteList = ['.jd.com'];
+                for(var i=0; i<domainWhiteList.length; i++){
+                    if(origin.indexOf(domainWhiteList[i])<0) { //不接受白名单以外的请求
+                        return;
+                    }
+                }
+                var data = JSON.parse(event.data);
+                var storage = window.sessionStorage;
+                if(data.op === 'S') { //set
+                    storage.setItem(data.key, JSON.stringify(data.value));
+                    event.source.postMessage(event.data, origin);
+                } else if (data.op === 'R') { //删除
+                    storage.removeItem(data.key);
+                    event.source.postMessage(event.data, origin);
+                } else { //get
+                    var value = JSON.parse(storage.getItem(data.key));
+                    event.source.postMessage(JSON.stringify({
+                        id: data.id,
+                        key: data.key,
+                        value: value,
+                        timer:data.timer
+                    }), origin);
+                }
+
+            }catch(e) {}
+        }
+        window.addEventListener("message", messageHandler, false);
+    })();
+</script>
+</body></html>
