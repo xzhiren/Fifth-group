@@ -2,6 +2,7 @@
 ## Fifth-group
 ##  组员
 - [刘小燕](https://github.com/lxy123123)
+6月12日：项目做了一部分，其中对鼠标的一些事件不是很了解，明天争取把项目的大体框架做完，在其余时间学习js。
 - [葛金燕](https://github.com/gjy0712)
 6月12日：还是不知道如何使用flex弹性布局，focus,active,作业速度做的很慢，多练提高速度。js没学，一点也不会使用js,利用空余时间抓紧学习。利用这两天先学会focus和active,然后把侧边导航栏实现了。
 - [濮世杰](https://github.com/shijieTop500)
