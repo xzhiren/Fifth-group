@@ -9,6 +9,7 @@
 6月12日：项目做了一小部分，解决了移动端视口问题，明天争取把项目的大部分内容做完。
 - [宋宇航](https://github.com/594SYH)
 - [胡志伟](https://github.com/Johnhu98)
+6.12：学习和熟悉了git指令，把项目的分支梳理清楚，项目做了小部分，明天打算抓紧学习和完成更多内容。
 - [陶祯](https://github.com/hongtaozhenchen)
 6月12日：给自己要做的项目开了个头，准备明天尽力把项目做完。
 - [李政](https://github.com/wind-lz)
