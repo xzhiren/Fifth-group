@@ -8,6 +8,7 @@
 - [濮世杰](https://github.com/shijieTop500)
 6月12日：项目做了一小部分，解决了移动端视口问题，明天争取把项目的大部分内容做完。
 - [宋宇航](https://github.com/594SYH)
+6月12日：开始接手项目，在原网观察源码及属性，开始着手项目网站布局及思考网站所需js逻辑及代码。
 - [胡志伟](https://github.com/Johnhu98)
 6.12：学习和熟悉了git指令，把项目的分支梳理清楚，项目做了小部分，明天打算抓紧学习和完成更多内容。
 - [陶祯](https://github.com/hongtaozhenchen)
