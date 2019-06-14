@@ -26,6 +26,7 @@ ul,li{
     font-size: 12px;
     color: #333333;
     min-width: 375px;
+    background: #f7f7f7;
 }
 .shoppingcart-box{
     position: relative;
@@ -73,7 +74,7 @@ ul,li{
     display: block;
 } */
 .top-more-nav{
-    /* display: none; */
+    display: none;
     position: absolute;
     background-color: rgba(0,0,0,0.9);
     width: 125px;
@@ -174,10 +175,9 @@ ul,li{
     right: 0;
     bottom: 0; 
 }
-
-.spike-commodity-box{
-    margin: 0px 0ox 10px 10px;
-    background-color: #fff;
+.spike-commodity{
+    background: #fff;
+    margin: 0 0 10px 10px;
 }
 .spike-top{
     display: flex;
@@ -203,6 +203,63 @@ ul,li{
     white-space: nowrap;
     overflow: hidden;
     overflow-x: auto;
+}
+.spike-commodity-a{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0 5px 5px;
+    text-align: center;
+    border-radius: 4px;
+    width: 24%;
+}
+.spike-commodity-img{
+    position: relative;
+    height: 0;
+    padding-top: 100%;
+    overflow: hidden;
+}
+.spike-commodity-img img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+}
+.spike-price-num{
+    color: #e4393c;
+    font-size: 16px;
+}
+.original-price{
+    color: #999;
+    text-decoration: line-through;
+    line-height: 18px;
+}
+.spike-commodity-more{
+    position: absolute;
+    display: inline-block;
+    margin-right: 10px;
+    width: 55px;
+    height: 100%;
+    bottom: 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+.skipe-more-box{
+    width: 45px;
+    height: 100%;
+    background-color: #f7f7f7;
+}
+.spike-more-text{
+    position: absolute;
+    margin-top: -25px;
+    padding-bottom: 12px;
+    left: 12px;
+    top: 50%;
+    color: #999999;
+    text-align: left;
+    writing-mode: vertical-rl;
+    letter-spacing: 2px;
 }
 
 .shopcart-empty-wrap{
