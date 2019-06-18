@@ -1,0 +1,236 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no, viewport-fit=cover">
+<!--
+<style type="text/css">
+.divhead {
+	float: left;
+	height: 100px;
+	width: 90%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.divhead15 {
+	line-height: 60px;
+	text-align: center;
+	float: left;
+	height: 60px;
+	width: 15%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	color: #CCC;
+}
+.divhead40 {
+	line-height: 100px;
+	text-align: right;
+	float: right;
+	height: 100px;
+	width: 40%;
+	font-size: 12px;
+	color: #CCC;
+}
+.divbody {
+	float: left;
+	height: 500px;
+	width: 100%;
+}
+.divdenglu1 {
+	height: 400px;
+	width: 300px;
+	position: absolute;
+	z-index: 1;
+	left: 800px;
+	top: 150px;
+	background-color: #FFF;
+}
+.divdenglu2 {
+	height: 400px;
+	width: 300px;
+	position: absolute;
+	z-index: 1;
+	left: 800px;
+	top: 150px;
+	background-color: #FFF;
+}
+.divleft {
+	float: left;
+	height: 30px;
+	width: 200px;
+	text-align: center;
+	padding-left: 50px;
+	padding-top: 20px;
+	line-height: 30px;
+	font-weight:bold;
+}
+.divright {
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+.divdenglubody {
+	float: left;
+	height: 120px;
+	width: 100px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 50px;
+}
+.divsamll1 {
+	float: left;
+	height: 20px;
+	width: 300px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #CCC;
+}
+.divsamll1 .a{
+	color:#09F;
+}
+a{
+	text-decoration: none; 
+	}
+	.divsamll2 {
+	float: left;
+	height: 40px;
+	width: 300px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	color: #333;
+}
+.inputtext1{
+	float: left;
+	height: 40px;
+	width: 250px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.inputtext2{
+	float: left;
+	height: 40px;
+	width: 250px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.kong{
+	float: left;
+	height: 20px;
+	width: 300px;
+	line-height: 20px;
+	text-align: center;
+}
+.inputtext1>input{position: relative;
+	background-image:url(image/6.png);       
+	background-repeat: no-repeat;        
+	background-size: 40px;        
+	background-position:5px center;
+	padding:0 0 0 40px;        
+	}
+.inputtext2>input{position: relative;
+	background-image:url(image/7.png);       
+	background-repeat: no-repeat;        
+	background-size: 40px;        
+	background-position:5px center;
+	padding:0 0 0 40px;        
+}
+.divbuttom {
+	float: left;
+	height: 40px;
+	width: 250px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFF;
+	background-color: #06F;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-left: 25px;
+}
+</style>
+<script type="text/javascript">
+
+function btn(){
+	var b1=document.getElementById('a1');
+var b2=document.getElementById('a2');
+	 if(b1.style.display=='block'){b1.style.display='none';b2.style.display='block';
+ }else{b2.style.display='none';b1.style.display='block';
+}
+}
+</script>-->
+<style>
+.foundbody {
+	margin: 0;
+	height: 445px;
+	width: 100%;
+}
+.foundbodytop {
+	height: 10%;
+	width: 100%;
+	float: left;
+	background-color: #F00;
+}
+.foundbodyleft {
+	height: 80%;
+	width: 15%;
+	float: left;
+	background-color: #0F0;
+}
+.foundbodyright {
+	height: 80%;
+	width: 85%;
+	float: left;
+	background-color: #FF0;
+}
+.foundbodybottom {
+	height: 10%;
+	width: 100%;
+	float: left;
+	background-color: #0FF;
+}
+</style>
+<title>找东西</title>
+</head>
+<body>
+<!--<div class="divhead">
+  <div class="divhead15"><img src="image/1.png" width="159" height="60"></div>
+  <div class="divhead15">|&nbsp;&nbsp;&nbsp; </div>
+  <div class="divhead40">&nbsp;&nbsp;&nbsp;&nbsp; V&nbsp;&nbsp;&nbsp;&nbsp; PLUS&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; |&nbsp; 帮助&nbsp;&nbsp;&nbsp;&nbsp; </div>
+</div>
+<div class="divbody"><img src="image/5.jpg" width="1165" height="500"></div>
+<div class="divdenglu1" id="a1" style="display:block">
+  <div class="divleft"></div>
+  <div class="divright" onClick="btn()"><img src="image/3.png" width="50" height="50"></div>
+  <div class="kong"></div>
+ <div class="inputtext1"> <input type="text" name="textfield" id="textfield" placeholder="输入" style="height: 40px;width: 210px;"></div>
+ <div class="kong"></div>
+  <div class="inputtext2"><input type="password" name="password" id="password" placeholder="" style="height: 40px;width: 210px;"></div>
+  <div class="kong"></div>
+  <div class="kong"></div>
+  <div class="divbuttom"></div>
+  <div class="kong"></div>
+  <div class="kong"><a href=""></a></div>
+</div>
+<div class="divdenglu2" id="a2" style="display:none">
+  <div class="divleft"></div>
+  <div class="divright" onClick="btn()"><img src="image/2.png" width="50" height="50"></div>
+  <div class="divdenglubody"><img src="image/4.jpg" width="100" height="100"></div>
+  <div class="divsamll1"><a href=""></a></div>
+  <div class="divsamll2"></div>
+</div>-->
+<div class="foundbody">
+  <div class="foundbodytop">1
+  </div>
+  <div class="foundbodyleft">2
+  </div>
+  <div class="foundbodyright">3
+  </div>
+  <div class="foundbodybottom">4
+  </div>
+</div>
+</body>
+</html>
