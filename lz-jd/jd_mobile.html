@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>618拼购</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background: #fd4e44;
+        }
+        header{
+            position: relative;
+            height: 44px;
+            background: #ffffff;
+        }
+        .header-icon{
+            position: absolute;
+            width: 40px;
+            height: 44px;
+        }
+        .header-icon img{
+            width: 20px;
+            height: 20px;
+            margin-top: 12px;
+            margin-left: 8px;
+        }
+
+        .header-title{
+            position: absolute;
+            height: 44px;
+            font-size: 16px;
+            line-height: 44px;
+            left: 50%;
+            margin-left: -30px;
+        }
+
+        .header-event{
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 40px;
+            height: 44px;
+         }
+        .header-event span{
+            display: inline-block;
+            /*margin: 12px 12px 12px 10px;*/
+            margin-top: 12px;
+            width: 20px;
+            height: 20px;
+            background: url(images/spot.png) no-repeat 50%;
+            background-size: 20px;
+        }
+        .image{
+            position: relative;
+            overflow: hidden;
+        }
+        .image img{
+            width: 100%;
+            height: auto;
+        }
+        .coupon{
+            margin-top: 5px;
+            text-align: center;
+        }
+        .coupon-item{
+            display: inline-block;
+            width: 30%;
+        }
+        .coupon-item img{
+            width: 100%;
+        }
+
+        .imgsrc img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-icon">
+            <a href="#">
+                <img src="images/jt.png" alt="箭头">
+            </a>
+        </div>
+        <div class="header-title">
+            618拼购
+        </div>
+        <div class="header-event">
+            <span></span>
+        </div>
+    </header>
+    
+    <div class="image">
+        <img src="https://img10.360buyimg.com/wq/s750x3000_jfs/t28378/30/1622330930/89780/69316cf4/5ce63aa5N14027daf.jpg!q70.dpg.webp" alt="main">
+    </div>
+
+    <div class="coupon">
+        <div class="coupon-item"><a href="#"><img src="images/coupon.png" alt="coupon"></a></div>
+        <div class="coupon-item"><a href="#"><img src="images/coupon.png" alt="coupon"></a></div>
+        <div class="coupon-item"><a href="#"><img src="images/coupon.png" alt="coupon"></a></div>
+    </div>
+
+    <div class="imgsrc">
+        <a href="#"><img src="https://img10.360buyimg.com/wq/jfs/t30469/269/1397106254/15125/c1b94e1d/5cde80bcN894b35ae.png!q70.webp" alt="1"></a>
+    </div>
+</body>
+</html>
